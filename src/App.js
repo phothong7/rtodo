@@ -39,6 +39,9 @@ function App() {
       text: input,
       completed: false,
     });
+
+    //clert input text
+    setInput('');
   };
   //Read todo from firebase
 
